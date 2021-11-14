@@ -1,8 +1,9 @@
 .vs/
 [Bb]in/
 [Bb]in-obj/
+[Bb]ackups/
 
-chappy.sln
+*.sln
 *.user
 *.vcxproj
 *.vcxproj.filters

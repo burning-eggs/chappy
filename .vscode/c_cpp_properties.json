@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/chappy/include/**",
-                "${workspaceFolder}/chappy/src/chappy/**"
+                "${workspaceFolder}/chappy/src/chappy/**",
+                "${workspaceFolder}/chappy/src/modules/**"
             ],
             "defines": [
                 "_DEBUG",

@@ -23,6 +23,10 @@ project "chappy"
         "%{prj.name}/include/Chappy.h"
     }
 
+    includedirs {
+        "chappy/src/modules/spdlog"
+    }
+
     filter "system:windows"
         cppdialect "C++17"
         systemversion "latest"
@@ -63,7 +67,8 @@ project "Tests"
     }
 
     includedirs {
-        "chappy/include"
+        "chappy/include",
+        "chappy/src/modules/spdlog"
     }
 
     links {
